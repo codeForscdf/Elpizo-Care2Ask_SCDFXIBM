@@ -67,7 +67,7 @@ Password: &Care!<br/>
 
 h)Live Demo<br/>
 https://alg3bras.com/Care2Ask/ <br/>
-User Name: pride
+User Name: pride<br/>
 Password: &Care!
 
 i) What your team used to build your solution* (e.g. IBM Cloudant, IBM Cloud Functions, etc…)<br/>

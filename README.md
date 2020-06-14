@@ -19,10 +19,10 @@ Team Members: Jia Hui, Ansel, Fei Fan, Marcus, Sam
 Description about the team name and members can be found <a href="https://codeforscdf.github.io/Elpizo-Care2Ask_SCDFXIBM/pages/aboutus.html" title="Who We Are"> on our About Us page</a>. <br/>
 
 a) A short description of the problem you are tackling, how technology can help, as well as the idea your team is proposing*
-With an ageing population in Singapore, there is increasing need for quick emergency response. Community First Responders (CFRs) are activated to provide timely relief and response to emergency situations. However, they need expert knowledge for effective responses. Therefore, our chatbot and will effectively guide them through early intervention response. Additionally, with rising numbers of people living with dementia and cases of wandering, we employ facial recognition software for the community to better help find our lost patients.
+With an ageing population in Singapore, there is increasing need for quick emergency response. Community First Responders (CFRs) are activated to provide timely relief and response to emergency situations. However, they need expert knowledge for effective responses. Therefore, our chatbot and will effectively guide them through early intervention response. Additionally, with rising numbers of people living with dementia and cases of wandering, we employ facial recognition software for the community to better help find our lost patients. The vunerable population and their family may upload their profile pictures onto our database, and through our Care2Ask image rekognition application, First Responders may come across these population when they are in need, and our application helps identify the situation and their conditions, giving data like the next of kin or guardian to contact. Our image rekognition also aims to recognize possible hazards from any image input systems, althought our custom rekognition model is not yet ready, it also spot potentially dangerious hazard causing objects, and informing the related authorities to mend the issue before an accident, saving emergency resource. 
 
 b) Pitch Video*<br/>
-https://youtu.be/eaQkMWVHFr4
+https://youtu.be/dCOi3h2vThY
 
 c) The architecture of your proposed solution*<br/>
 The three applications of our solution come together into an integrated platform to provide SAAS. The chatbot we created is a weblet made using Watson assistant. Our facial recognition runs through Amazon Web Service’s Rekognition software, and an API request is sent to their software using Django platform where they will pull the 2 images to compare out from a s3 bucket storage directory . The images to upload for comparison can be done through our form on https://www.alg3bras.com/Care2Ask . The results of the images will then be used and if a facial match is found, the contact details of the patient’s next of kin will be displayed, or a push notification using IBM Push Notification, can be sent to the mobile device belonging to the family of the patient,  We have a database of glossary for members to look up conditions and terms they are unsure of added-on to add more functionality to our application. This is to better equip the Community First Responders with tools that engage them.
@@ -67,7 +67,7 @@ Password: &Care!<br/>
 
 h)Live Demo<br/>
 https://alg3bras.com/Care2Ask/ <br/>
-User Name: pride<br/>
+User Name: pride
 Password: &Care!
 
 i) What your team used to build your solution* (e.g. IBM Cloudant, IBM Cloud Functions, etc…)<br/>

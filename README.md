@@ -106,7 +106,6 @@ Contain the jquery library we used to animate elements such as scrollbars and if
 
 <br/>
 
-<br/><br/>
 <u><h2> sql folder </h2><u>
 Contains othe Glossary table for our application. We also used a login table and a contact/image table for the application, but due to the private information that the tables contain, we have excluded them from this public GitHub repositary.
 

@@ -22,7 +22,7 @@ a) A short description of the problem you are tackling, how technology can help,
 With an ageing population in Singapore, there is increasing need for quick emergency response. Community First Responders (CFRs) are activated to provide timely relief and response to emergency situations. However, they need expert knowledge for effective responses. Therefore, our chatbot and will effectively guide them through early intervention response. Additionally, with rising numbers of people living with dementia and cases of wandering, we employ facial recognition software for the community to better help find our lost patients.
 
 b) Pitch Video*<br/>
-https://youtu.be/dCOi3h2vThY
+https://youtu.be/eaQkMWVHFr4
 
 c) The architecture of your proposed solution*<br/>
 The three applications of our solution come together into an integrated platform to provide SAAS. The chatbot we created is a weblet made using Watson assistant. Our facial recognition runs through Amazon Web Service’s Rekognition software, and an API request is sent to their software using Django platform where they will pull the 2 images to compare out from a s3 bucket storage directory . The images to upload for comparison can be done through our form on https://www.alg3bras.com/Care2Ask . The results of the images will then be used and if a facial match is found, the contact details of the patient’s next of kin will be displayed, or a push notification using IBM Push Notification, can be sent to the mobile device belonging to the family of the patient,  We have a database of glossary for members to look up conditions and terms they are unsure of added-on to add more functionality to our application. This is to better equip the Community First Responders with tools that engage them.

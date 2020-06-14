@@ -1,0 +1,15 @@
+asgiref==3.2.7
+autopep8==1.5.2
+boto3==1.13.16
+botocore==1.16.16
+Django==3.0.6
+docutils==0.15.2
+jmespath==0.10.0
+Pillow==7.1.2
+pycodestyle==2.6.0
+python-dateutil==2.8.1
+pytz==2020.1
+s3transfer==0.3.3
+six==1.15.0
+sqlparse==0.3.1
+urllib3==1.25.9

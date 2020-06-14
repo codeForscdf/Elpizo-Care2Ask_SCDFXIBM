@@ -47,19 +47,19 @@ User Name: pride<br/>
 Password: &Care!
 
 Django application/Website<br/>
-1.First download python from https://www.python.org/downloads/
-2. Download pip from https://pypi.org/project/pip/
+1.First download python from https://www.python.org/downloads/<br/>
+2. Download pip from https://pypi.org/project/pip/<br/>
 3. Download the django from more information form the site.
- https://docs.djangoproject.com/en/3.0/topics/install/
-4. Using <django-admin startproject NAME_OF_project> command start your django project
-5. Urls.py on your django project defines your url, using the respective path function under url patterns.
-6. Create a views.py and add the function which returns a render function, holding the html page, python codes in this function may be used to input processed data into the website.
-Here is where you add AWS rekognition lines.
-7. Add a Templates folder containing the html files under your main django project folder.
+ https://docs.djangoproject.com/en/3.0/topics/install/<br/>
+4. Using <django-admin startproject NAME_OF_project> command start your django project<br/>
+5. Urls.py on your django project defines your url, using the respective path function under url patterns.<br/>
+6. Create a views.py and add the function which returns a render function, holding the html page, python codes in this function may be used to input processed data into the website.<br/>
+Here is where you add AWS rekognition lines.<br/>
+7. Add a Templates folder containing the html files under your main django project folder.<br/>
 8. Using terminals, run the
  <python manage.py runserver (port number)(optional for local demo)> 
-command to start the server.
-9.The Whole django project we worked on may be found on the link below. We use input variable via html, passed to our python code and display the results in our results show.html. We use our main site, with php and html files to upload images to use for our applications. Read AWS Rekognition for more details
+command to start the server.<br/>
+9.The Whole django project we worked on may be found on the link below. We use input variable via html, passed to our python code and display the results in our results show.html. We use our main site, with php and html files to upload images to use for our applications. Read AWS Rekognition for more details<br/>
 Here is the download link to our django project, https://github.com/codeForscdf/Elpizo-Care2Ask_SCDFXIBM/tree/master/pages/AWSrekoUI &nbsp;<br/>Live Demo	 for facial comparison<br/>
 https://alg3bras.com/Care2Ask/ <br/>
 User Name: pride <br/>

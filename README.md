@@ -33,13 +33,13 @@ https://codeforscdf.github.io/Elpizo-Care2Ask_SCDFXIBM/pages/solution.html
 
 f) Getting started* (Step-by-step instructions to install the required software and how to run a demo of your solution) <br/>
 Disclaimer <all codes and changes are on our github, these general instructions will provide the basic idea and understanding for projects>
-The application of our solution can be found on https://www.alg3bras.com/Care2Ask . A demo version is accessible after login with the <b>username: pride</b> and <b>password: &Care!</b>  (case  sensitive). As the codes used to build the app includes username and passwords to access a secure database, portion of the redacted code can be found on our GitHub repository for the challenge.
+The application of our solution can be found on https://www.alg3bras.com/Care2Ask . A demo version is accessible after login with the <b>username: pride</b> and <b>password: &Care!</b>  (case  sensitive). As the codes used to build the app includes username and passwords to access a secure database, portion of the redacted code can be found on our GitHub repository for the challenge.<br/>
 
 AWS Rekognition<br/>
-1.The whole tutorial is found here.https://docs.aws.amazon.com/rekognition/latest/dg/setting-up.html
-2. We use our S3 bucket to do our image processing. Uploading tutorial found here. https://docs.aws.amazon.com/AmazonS3/latest/dev/UploadObjSingleOpPHP.html
-3. Upon uploading, our site brings you to a link containing the names of the images you have uploaded, which links to our Django website, where it receives the url request and runs the image rekognition, and displaying the results on the webpage. Read more about Django application/Website below.
-4. Custom labels is used for detecting hazards, Link to tutorial here : https://docs.aws.amazon.com/rekognition/latest/customlabels-dg/what-is.html
+1.The whole tutorial is found here.https://docs.aws.amazon.com/rekognition/latest/dg/setting-up.html<br/>
+2. We use our S3 bucket to do our image processing. Uploading tutorial found here. https://docs.aws.amazon.com/AmazonS3/latest/dev/UploadObjSingleOpPHP.html<br/>
+3. Upon uploading, our site brings you to a link containing the names of the images you have uploaded, which links to our Django website, where it receives the url request and runs the image rekognition, and displaying the results on the webpage. Read more about Django application/Website below.<br/>
+4. Custom labels is used for detecting hazards, Link to tutorial here : https://docs.aws.amazon.com/rekognition/latest/customlabels-dg/what-is.html<br/>
 We have created a site to process custom labels, however due to money and time constraints, we are unable to fully create a fully taught and reliable image recognizer on AWS rekognition. With more time and funding, we will be able to create a model to detect hazards and other labels for our solution. <br/>
 Live Demo	 for facial comparison<br/>
 https://alg3bras.com/Care2Ask/	<br/>

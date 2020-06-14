@@ -22,7 +22,8 @@ a) A short description of the problem you are tackling, how technology can help,
 With an ageing population in Singapore, there is increasing need for quick emergency response. Community First Responders (CFRs) are activated to provide timely relief and response to emergency situations. However, they need expert knowledge for effective responses. Therefore, our chatbot and will effectively guide them through early intervention response. Additionally, with rising numbers of people living with dementia and cases of wandering, we employ facial recognition software for the community to better help find our lost patients. The vunerable population and their family may upload their profile pictures onto our database, and through our Care2Ask image rekognition application, First Responders may come across these population when they are in need, and our application helps identify the situation and their conditions, giving data like the next of kin or guardian to contact. Our image rekognition also aims to recognize possible hazards from any image input systems, althought our custom rekognition model is not yet ready, it also spot potentially dangerious hazard causing objects, and informing the related authorities to mend the issue before an accident, saving emergency resource. 
 
 b) Pitch Video*<br/>
-https://youtu.be/dCOi3h2vThY
+
+https://www.youtube.com/watch?v=eaQkMWVHFr4&feature=youtu.be <br/>
 
 c) The architecture of your proposed solution*<br/>
 The three applications of our solution come together into an integrated platform to provide SAAS. The chatbot we created is a weblet made using Watson assistant. Our facial recognition runs through Amazon Web Service’s Rekognition software, and an API request is sent to their software using Django platform where they will pull the 2 images to compare out from a s3 bucket storage directory . The images to upload for comparison can be done through our form on https://www.alg3bras.com/Care2Ask . The results of the images will then be used and if a facial match is found, the contact details of the patient’s next of kin will be displayed, or a push notification using IBM Push Notification, can be sent to the mobile device belonging to the family of the patient,  We have a database of glossary for members to look up conditions and terms they are unsure of added-on to add more functionality to our application. This is to better equip the Community First Responders with tools that engage them.
@@ -33,13 +34,13 @@ https://codeforscdf.github.io/Elpizo-Care2Ask_SCDFXIBM/pages/solution.html
 
 f) Getting started* (Step-by-step instructions to install the required software and how to run a demo of your solution) <br/>
 Disclaimer <all codes and changes are on our github, these general instructions will provide the basic idea and understanding for projects>
-The application of our solution can be found on https://www.alg3bras.com/Care2Ask . A demo version is accessible after login with the <b>username: pride</b> and <b>password: &Care!</b>  (case  sensitive). As the codes used to build the app includes username and passwords to access a secure database, portion of the redacted code can be found on our GitHub repository for the challenge.
+The application of our solution can be found on https://www.alg3bras.com/Care2Ask . A demo version is accessible after login with the <b>username: pride</b> and <b>password: &Care!</b>  (case  sensitive). As the codes used to build the app includes username and passwords to access a secure database, portion of the redacted code can be found on our GitHub repository for the challenge.<br/>
 
 AWS Rekognition<br/>
-1.The whole tutorial is found here.https://docs.aws.amazon.com/rekognition/latest/dg/setting-up.html
-2. We use our S3 bucket to do our image processing. Uploading tutorial found here. https://docs.aws.amazon.com/AmazonS3/latest/dev/UploadObjSingleOpPHP.html
-3. Upon uploading, our site brings you to a link containing the names of the images you have uploaded, which links to our Django website, where it receives the url request and runs the image rekognition, and displaying the results on the webpage. Read more about Django application/Website below.
-4. Custom labels is used for detecting hazards, Link to tutorial here : https://docs.aws.amazon.com/rekognition/latest/customlabels-dg/what-is.html
+1.The whole tutorial is found here.https://docs.aws.amazon.com/rekognition/latest/dg/setting-up.html<br/>
+2. We use our S3 bucket to do our image processing. Uploading tutorial found here. https://docs.aws.amazon.com/AmazonS3/latest/dev/UploadObjSingleOpPHP.html<br/>
+3. Upon uploading, our site brings you to a link containing the names of the images you have uploaded, which links to our Django website, where it receives the url request and runs the image rekognition, and displaying the results on the webpage. Read more about Django application/Website below.<br/>
+4. Custom labels is used for detecting hazards, Link to tutorial here : https://docs.aws.amazon.com/rekognition/latest/customlabels-dg/what-is.html<br/>
 We have created a site to process custom labels, however due to money and time constraints, we are unable to fully create a fully taught and reliable image recognizer on AWS rekognition. With more time and funding, we will be able to create a model to detect hazards and other labels for our solution. <br/>
 Live Demo	 for facial comparison<br/>
 https://alg3bras.com/Care2Ask/	<br/>
@@ -47,19 +48,19 @@ User Name: pride<br/>
 Password: &Care!
 
 Django application/Website<br/>
-1.First download python from https://www.python.org/downloads/
-2. Download pip from https://pypi.org/project/pip/
+1.First download python from https://www.python.org/downloads/<br/>
+2. Download pip from https://pypi.org/project/pip/<br/>
 3. Download the django from more information form the site.
- https://docs.djangoproject.com/en/3.0/topics/install/
-4. Using <django-admin startproject NAME_OF_project> command start your django project
-5. Urls.py on your django project defines your url, using the respective path function under url patterns.
-6. Create a views.py and add the function which returns a render function, holding the html page, python codes in this function may be used to input processed data into the website.
-Here is where you add AWS rekognition lines.
-7. Add a Templates folder containing the html files under your main django project folder.
+ https://docs.djangoproject.com/en/3.0/topics/install/<br/>
+4. Using <django-admin startproject NAME_OF_project> command start your django project<br/>
+5. Urls.py on your django project defines your url, using the respective path function under url patterns.<br/>
+6. Create a views.py and add the function which returns a render function, holding the html page, python codes in this function may be used to input processed data into the website.<br/>
+Here is where you add AWS rekognition lines.<br/>
+7. Add a Templates folder containing the html files under your main django project folder.<br/>
 8. Using terminals, run the
  <python manage.py runserver (port number)(optional for local demo)> 
-command to start the server.
-9.The Whole django project we worked on may be found on the link below. We use input variable via html, passed to our python code and display the results in our results show.html. We use our main site, with php and html files to upload images to use for our applications. Read AWS Rekognition for more details
+command to start the server.<br/>
+9.The Whole django project we worked on may be found on the link below. We use input variable via html, passed to our python code and display the results in our results show.html. We use our main site, with php and html files to upload images to use for our applications. Read AWS Rekognition for more details<br/>
 Here is the download link to our django project, https://github.com/codeForscdf/Elpizo-Care2Ask_SCDFXIBM/tree/master/pages/AWSrekoUI &nbsp;<br/>Live Demo	 for facial comparison<br/>
 https://alg3bras.com/Care2Ask/ <br/>
 User Name: pride <br/>

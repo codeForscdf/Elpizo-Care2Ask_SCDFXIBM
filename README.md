@@ -1,20 +1,22 @@
-Short description of your team members, and team name.
-a) A short description of the problem you are tackling, how technology can help, as well as the idea your team is proposing*
-b) Pitch Video*
-c) The architecture of your proposed solution*
-d) A hyperlink to your detailed solution* (Long description of your solution)
-e) Project Roadmap/ Proposed timeline
-f) Getting started* (Step-by-step instructions to install the required software and how to run a demo of your solution)
-g) Running the tests (Explanation and breakdown on how to run tests for the proposed solution)
-h) Live demo (Link to an actual working demo/website)
-i) What your team used to build your solution* (e.g. IBM Cloudant, IBM Cloud Functions, etc…)
+Short description of your team members, and team name.<br/>
+<ul>
+<li>a) A short description of the problem you are tackling, how technology can help, as well as the idea your team is proposing*</li>
+<li>b) Pitch Video*</li>
+ <li>c) The architecture of your proposed solution*</li>
+ <li>d) A hyperlink to your detailed solution* (Long description of your solution)</li>
+ <li>e) Project Roadmap/ Proposed timeline</li>
+ <li>f) Getting started* (Step-by-step instructions to install the required software and how to run a demo of your solution)</li>
+ <li>g) Running the tests (Explanation and breakdown on how to run tests for the proposed solution)</li>
+ <li>h) Live demo (Link to an actual working demo/website)</li>
+ <li>i) What your team used to build your solution* (e.g. IBM Cloudant, IBM Cloud Functions, etc…)</li>
+ </ul>
 
 --------------------------------------------------------------------
 
 Short description of your team members, and team name.
 Team name: Elpizo
 Team Members: Jia Hui, Ansel, Fei Fan, Marcus, Sam
-Description about the team name and members can be found <a href="https://codeforscdf.github.io/Elpizo-Care2Ask_SCDFXIBM/pages/aboutus.html" title="Who We Are"> on our About Us page</a>.
+Description about the team name and members can be found <a href="https://codeforscdf.github.io/Elpizo-Care2Ask_SCDFXIBM/pages/aboutus.html" title="Who We Are"> on our About Us page</a>. <br/>
 
 a) A short description of the problem you are tackling, how technology can help, as well as the idea your team is proposing*
 With an ageing population in Singapore, there is increasing need for quick emergency response. Community First Responders (CFRs) are activated to provide timely relief and response to emergency situations. However, they need expert knowledge for effective responses. Therefore, our chatbot and will effectively guide them through early intervention response. Additionally, with rising numbers of people living with dementia and cases of wandering, we employ facial recognition software for the community to better help find our lost patients.

@@ -60,8 +60,8 @@ Here is where you add AWS rekognition lines.
  <python manage.py runserver (port number)(optional for local demo)> 
 command to start the server.
 9.The Whole django project we worked on may be found on the link below. We use input variable via html, passed to our python code and display the results in our results show.html. We use our main site, with php and html files to upload images to use for our applications. Read AWS Rekognition for more details
-Here is the download link to our django project, https://github.com/codeForscdf/Elpizo-Care2Ask_SCDFXIBM/tree/master/pages/AWSrekoUI &nbsp; ((((Live Demo	 for facial comparison)))
-(https://alg3bras.com/Care2Ask/ <br/>
+Here is the download link to our django project, https://github.com/codeForscdf/Elpizo-Care2Ask_SCDFXIBM/tree/master/pages/AWSrekoUI &nbsp;<br/>Live Demo	 for facial comparison<br/>
+https://alg3bras.com/Care2Ask/ <br/>
 User Name: pride <br/>
 Password: &Care!<br/>
 

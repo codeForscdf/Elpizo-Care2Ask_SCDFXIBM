@@ -60,23 +60,34 @@ Here is where you add AWS rekognition lines.
  <python manage.py runserver (port number)(optional for local demo)> 
 command to start the server.
 9.The Whole django project we worked on may be found on the link below. We use input variable via html, passed to our python code and display the results in our results show.html. We use our main site, with php and html files to upload images to use for our applications. Read AWS Rekognition for more details
-Here is the download link to our django project, https://github.com/codeForscdf/Elpizo-Care2Ask_SCDFXIBM/tree/master/pages/AWSrekoUI((((Live Demo	 for facial comparison)))
-((((https://alg3bras.com/Care2Ask/	  )))
-((((User Name: pride 			  )))
-((((Password: &Care!			  )))
+Here is the download link to our django project, https://github.com/codeForscdf/Elpizo-Care2Ask_SCDFXIBM/tree/master/pages/AWSrekoUI &nbsp; ((((Live Demo	 for facial comparison)))
+(https://alg3bras.com/Care2Ask/ <br/>
+User Name: pride <br/>
+Password: &Care!<br/>
 
 h)Live Demo<br/>
-https://alg3bras.com/Care2Ask/
+https://alg3bras.com/Care2Ask/ <br/>
 User Name: pride
 Password: &Care!
 
 i) What your team used to build your solution* (e.g. IBM Cloudant, IBM Cloud Functions, etc…)<br/>
 IBM Cloud
 IBM Watson Assistant
+IBM Speech to Text
 IBM Cloud Foundry
+IBM Push Notification
 IBM Db2
-
-
+Github
+Atom.io
+Eclipse IDE
+Composer
+MAMP
+phpmyadmin
+Amazon Web Services
+Amazon Rekognition
+Django
+html, css, js, php, python, jsp, md, sql
+<br/>
 <h3> This is the main folder containing all the codes we used to create our dynamic web application.  </h3>
 
 --------------------------------------------------------------------------------------------------------------------
